@@ -2,7 +2,7 @@
 
 import cv2 
 # vid = cv2.VideoCapture('C:\\Users\\Merve\\Desktop\\openCv\\hear_cascade\\faces.mp4')
-vid = cv2.VideoCapture(0) # videodaki görüntüyü işlemek.
+vid = cv2.VideoCapture(0) # Webcam üzerinden görüntüyü işlemek.
 face_cascade = cv2.CascadeClassifier('C:\\Users\\Merve\\Desktop\\openCv\\hear_cascade\\frontalface.xml')
 
 
